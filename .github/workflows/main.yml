@@ -1,0 +1,26 @@
+
+public class ExceptionExample {
+
+
+	final int a=10;
+
+	ExceptionExample(Object o) {
+
+		System.out.println(o.);
+	}
+
+	public static void main(String args[]) {
+
+		String[] str = new String[] { "aa", "bb", "cc" };
+
+		ExceptionExample ee = new ExceptionExample(null);
+
+//Exception in thread "main" java.lang.NullPointerException
+
+
+		ee.a=20;
+
+		String.valueOf(null);
+	}
+
+}
